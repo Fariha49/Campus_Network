@@ -1,0 +1,749 @@
+Tue Jan 23 18:44:15 2024   MAIN-CAMPUS ROUTER   Router>enable
+Tue Jan 23 18:44:15 2024   MAIN-CAMPUS ROUTER   Router#configure terminal
+Tue Jan 23 18:44:15 2024   MAIN-CAMPUS ROUTER   Router(config)#interface GigabitEthernet0/0
+Tue Jan 23 18:44:16 2024   MAIN-CAMPUS ROUTER   Router(config-if)#no shutdown
+Tue Jan 23 18:44:17 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:44:17 2024   MAIN-CAMPUS ROUTER   Router(config)#interface GigabitEthernet0/1
+Tue Jan 23 18:44:18 2024   MAIN-CAMPUS ROUTER   Router(config-if)#no shutdown
+Tue Jan 23 18:44:19 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:44:19 2024   MAIN-CAMPUS ROUTER   Router(config)#interface GigabitEthernet0/2
+Tue Jan 23 18:44:20 2024   MAIN-CAMPUS ROUTER   Router(config-if)#no shutdown
+Tue Jan 23 18:44:21 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:44:21 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 18:44:22 2024   MAIN-CAMPUS ROUTER   Router(config-if)#no shutdown
+Tue Jan 23 18:44:23 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:44:23 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 18:44:25 2024   MAIN-CAMPUS ROUTER   Router(config-if)#no shutdown
+Tue Jan 23 18:44:31 2024   CLOUD   Router>enable
+Tue Jan 23 18:44:31 2024   CLOUD   Router#configure terminal
+Tue Jan 23 18:44:31 2024   CLOUD   Router(config)#interface GigabitEthernet0/0
+Tue Jan 23 18:44:31 2024   CLOUD   Router(config-if)#no shutdown
+Tue Jan 23 18:44:33 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 18:44:33 2024   CLOUD   Router(config)#interface GigabitEthernet0/1
+Tue Jan 23 18:44:34 2024   CLOUD   Router(config-if)#no shutdown
+Tue Jan 23 18:44:35 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 18:44:35 2024   CLOUD   Router(config)#interface GigabitEthernet0/2
+Tue Jan 23 18:44:36 2024   CLOUD   Router(config-if)#no shutdown
+Tue Jan 23 18:44:37 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 18:44:37 2024   CLOUD   Router(config)#interface GigabitEthernet0/2
+Tue Jan 23 18:44:37 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 18:44:37 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 23 18:44:38 2024   CLOUD   Router(config-if)#no shutdown
+Tue Jan 23 18:44:39 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 18:44:39 2024   CLOUD   Router(config)#interface Serial0/1/1
+Tue Jan 23 18:44:40 2024   CLOUD   Router(config-if)#no shutdown
+Tue Jan 23 18:46:01 2024   BRANCH COMPUTER NETWORK   Router>enable
+Tue Jan 23 18:46:01 2024   BRANCH COMPUTER NETWORK   Router#configure terminal
+Tue Jan 23 18:46:01 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/0
+Tue Jan 23 18:46:02 2024   BRANCH COMPUTER NETWORK   Router(config-if)#no shutdown
+Tue Jan 23 18:46:03 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:03 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/1
+Tue Jan 23 18:46:04 2024   BRANCH COMPUTER NETWORK   Router(config-if)#no shutdown
+Tue Jan 23 18:46:06 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:06 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/2
+Tue Jan 23 18:46:07 2024   BRANCH COMPUTER NETWORK   Router(config-if)#no shutdown
+Tue Jan 23 18:46:08 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:08 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 18:46:09 2024   BRANCH COMPUTER NETWORK   Router(config-if)#no shutdown
+Tue Jan 23 18:46:10 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:10 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 18:46:12 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:12 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/1
+Tue Jan 23 18:46:13 2024   BRANCH COMPUTER NETWORK   Router(config-if)#no shutdown
+Tue Jan 23 18:46:14 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:14 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 18:46:15 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:15 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/2
+Tue Jan 23 18:46:16 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:16 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/1
+Tue Jan 23 18:46:17 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 18:46:17 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/0
+Tue Jan 23 18:47:44 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:47:44 2024   MAIN-CAMPUS ROUTER   Router(config)#interface GigabitEthernet0/0
+Tue Jan 23 18:47:45 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:47:45 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 18:47:49 2024   MAIN-CAMPUS ROUTER   Router(config-if)#clock rate 64000
+Tue Jan 23 18:47:51 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:47:51 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 18:47:55 2024   MAIN-CAMPUS ROUTER   Router(config-if)#clock rate 64000
+Tue Jan 23 18:47:56 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:47:56 2024   MAIN-CAMPUS ROUTER   Router(config)#interface GigabitEthernet0/2
+Tue Jan 23 18:47:57 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 18:47:57 2024   MAIN-CAMPUS ROUTER   Router(config)#interface GigabitEthernet0/1
+Tue Jan 23 18:53:04 2024   ADMIN   Switch>en
+Tue Jan 23 18:53:04 2024   ADMIN   Switch#conf t
+Tue Jan 23 18:53:04 2024   ADMIN   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:53:04 2024   ADMIN   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:53:04 2024   ADMIN   Switch(config-if-range)#switcgport access vlan 10
+Tue Jan 23 18:53:04 2024   ADMIN   Switch(config-if-range)#do wr
+Tue Jan 23 18:53:54 2024   HR   Switch>en
+Tue Jan 23 18:53:54 2024   HR   Switch#conf t
+Tue Jan 23 18:53:54 2024   HR   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:53:54 2024   HR   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:53:54 2024   HR   Switch(config-if-range)#switcgport access vlan 20
+Tue Jan 23 18:53:54 2024   HR   Switch(config-if-range)#do wr
+Tue Jan 23 18:54:11 2024   FINANCE   Switch>en
+Tue Jan 23 18:54:11 2024   FINANCE   Switch#conf t
+Tue Jan 23 18:54:11 2024   FINANCE   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:54:11 2024   FINANCE   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:54:11 2024   FINANCE   Switch(config-if-range)#switcgport access vlan 20
+Tue Jan 23 18:54:11 2024   FINANCE   Switch(config-if-range)#do wr
+Tue Jan 23 18:54:36 2024   BUSINESS   Switch>en
+Tue Jan 23 18:54:36 2024   BUSINESS   Switch#conf t
+Tue Jan 23 18:54:36 2024   BUSINESS   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:54:36 2024   BUSINESS   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:54:36 2024   BUSINESS   Switch(config-if-range)#switcgport access vlan 40
+Tue Jan 23 18:54:36 2024   BUSINESS   Switch(config-if-range)#do wr
+Tue Jan 23 18:54:53 2024   A&C   Switch>en
+Tue Jan 23 18:54:53 2024   A&C   Switch#conf t
+Tue Jan 23 18:54:53 2024   A&C   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:54:53 2024   A&C   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:54:53 2024   A&C   Switch(config-if-range)#switcgport access vlan 50
+Tue Jan 23 18:54:53 2024   A&C   Switch(config-if-range)#do wr
+Tue Jan 23 18:55:07 2024   A&D   Switch>en
+Tue Jan 23 18:55:07 2024   A&D   Switch#conf t
+Tue Jan 23 18:55:07 2024   A&D   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:55:07 2024   A&D   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:55:07 2024   A&D   Switch(config-if-range)#switcgport access vlan 60
+Tue Jan 23 18:55:07 2024   A&D   Switch(config-if-range)#do wr
+Tue Jan 23 18:55:28 2024   STUD-LAB   Switch>en
+Tue Jan 23 18:55:28 2024   STUD-LAB   Switch#conf t
+Tue Jan 23 18:55:28 2024   STUD-LAB   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:55:28 2024   STUD-LAB   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:55:28 2024   STUD-LAB   Switch(config-if-range)#switcgport access vlan 70
+Tue Jan 23 18:55:28 2024   STUD-LAB   Switch(config-if-range)#do wr
+Tue Jan 23 18:55:52 2024   IT-DEPT   Switch>en
+Tue Jan 23 18:55:52 2024   IT-DEPT   Switch#conf t
+Tue Jan 23 18:55:52 2024   IT-DEPT   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:55:52 2024   IT-DEPT   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:55:52 2024   IT-DEPT   Switch(config-if-range)#switcgport access vlan 70
+Tue Jan 23 18:55:52 2024   IT-DEPT   Switch(config-if-range)#do wr
+Tue Jan 23 18:56:17 2024   STAFF   Switch>en
+Tue Jan 23 18:56:17 2024   STAFF   Switch#conf t
+Tue Jan 23 18:56:17 2024   STAFF   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:56:17 2024   STAFF   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:56:17 2024   STAFF   Switch(config-if-range)#switcgport access vlan 90
+Tue Jan 23 18:56:17 2024   STAFF   Switch(config-if-range)#do wr
+Tue Jan 23 18:56:34 2024   STUD-LB   Switch>en
+Tue Jan 23 18:56:34 2024   STUD-LB   Switch#conf t
+Tue Jan 23 18:56:34 2024   STUD-LB   Switch(config)#int range fa0/1-24
+Tue Jan 23 18:56:34 2024   STUD-LB   Switch(config-if-range)#switchport mode access
+Tue Jan 23 18:56:34 2024   STUD-LB   Switch(config-if-range)#switcgport access vlan 100
+Tue Jan 23 18:56:34 2024   STUD-LB   Switch(config-if-range)#do wr
+Tue Jan 23 19:01:50 2024   MAIN_CAMPUS L3 SWITCH   Switch>en
+Tue Jan 23 19:01:50 2024   MAIN_CAMPUS L3 SWITCH   Switch#conf t
+Tue Jan 23 19:01:50 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int range fa0/1-24
+Tue Jan 23 19:01:50 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#switchport mode access
+Tue Jan 23 19:01:50 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#switcgport access vlan 100
+Tue Jan 23 19:01:50 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#do wr
+Tue Jan 23 19:03:15 2024   ADMIN   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:03:15 2024   ADMIN   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:03:15 2024   ADMIN   Switch(config-if-range)#switchport access vlan 100
+Tue Jan 23 19:03:15 2024   ADMIN   Switch(config-if-range)#do wr
+Tue Jan 23 19:03:34 2024   ADMIN   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:03:34 2024   ADMIN   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:03:34 2024   ADMIN   Switch(config-if-range)#switchport access vlan 10
+Tue Jan 23 19:03:34 2024   ADMIN   Switch(config-if-range)#do wr
+Tue Jan 23 19:03:52 2024   HR   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:03:52 2024   HR   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:03:52 2024   HR   Switch(config-if-range)#switchport access vlan 20
+Tue Jan 23 19:03:52 2024   HR   Switch(config-if-range)#do wr
+Tue Jan 23 19:04:04 2024   FINANCE   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:04:04 2024   FINANCE   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:04:04 2024   FINANCE   Switch(config-if-range)#switchport access vlan 30
+Tue Jan 23 19:04:04 2024   FINANCE   Switch(config-if-range)#do wr
+Tue Jan 23 19:04:17 2024   BUSINESS   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:04:17 2024   BUSINESS   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:04:17 2024   BUSINESS   Switch(config-if-range)#switchport access vlan 40
+Tue Jan 23 19:04:17 2024   BUSINESS   Switch(config-if-range)#do wr
+Tue Jan 23 19:04:24 2024   A&C   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:04:24 2024   A&C   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:04:24 2024   A&C   Switch(config-if-range)#switchport access vlan 40
+Tue Jan 23 19:04:24 2024   A&C   Switch(config-if-range)#do wr
+Tue Jan 23 19:04:38 2024   A&C   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:04:38 2024   A&C   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:04:38 2024   A&C   Switch(config-if-range)#switchport access vlan 50
+Tue Jan 23 19:04:38 2024   A&C   Switch(config-if-range)#do wr
+Tue Jan 23 19:05:00 2024   A&D   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:05:00 2024   A&D   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:05:00 2024   A&D   Switch(config-if-range)#switchport access vlan 60
+Tue Jan 23 19:05:00 2024   A&D   Switch(config-if-range)#do wr
+Tue Jan 23 19:05:15 2024   STUD-LAB   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:05:15 2024   STUD-LAB   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:05:15 2024   STUD-LAB   Switch(config-if-range)#switchport access vlan 70
+Tue Jan 23 19:05:15 2024   STUD-LAB   Switch(config-if-range)#do wr
+Tue Jan 23 19:05:34 2024   IT-DEPT   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:05:34 2024   IT-DEPT   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:05:34 2024   IT-DEPT   Switch(config-if-range)#switchport access vlan 80
+Tue Jan 23 19:05:34 2024   IT-DEPT   Switch(config-if-range)#do wr
+Tue Jan 23 19:05:57 2024   STAFF   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:05:57 2024   STAFF   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:05:57 2024   STAFF   Switch(config-if-range)#switchport access vlan 90
+Tue Jan 23 19:05:57 2024   STAFF   Switch(config-if-range)#do wr
+Tue Jan 23 19:06:15 2024   STUD-LB   Switch(config-if-range)#int range fa0/1-24
+Tue Jan 23 19:06:15 2024   STUD-LB   Switch(config-if-range)#switchport mode access
+Tue Jan 23 19:06:15 2024   STUD-LB   Switch(config-if-range)#switchport access vlan 100
+Tue Jan 23 19:06:15 2024   STUD-LB   Switch(config-if-range)#do wr
+Tue Jan 23 19:07:57 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig1/0/2
+Tue Jan 23 19:07:57 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport access vlan 10
+Tue Jan 23 19:07:57 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:10:21 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig1/0/3
+Tue Jan 23 19:10:27 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:10:41 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:10:48 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#int gig1/0/3
+Tue Jan 23 19:10:51 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:10:59 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport access vlan 20
+Tue Jan 23 19:11:03 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:20:00 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig1/0/4
+Tue Jan 23 19:20:07 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:20:11 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:20:27 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport access vlan 30
+Tue Jan 23 19:20:33 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:20:43 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig1/0/5
+Tue Jan 23 19:20:48 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:20:53 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport access vlan 40
+Tue Jan 23 19:20:55 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:21:24 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig1/0/6
+Tue Jan 23 19:21:30 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:21:35 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport access vlan 50
+Tue Jan 23 19:21:37 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:21:45 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig1/0/7
+Tue Jan 23 19:21:48 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:21:59 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport access vlan 60
+Tue Jan 23 19:22:02 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:22:27 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig1/0/8
+Tue Jan 23 19:22:31 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:22:36 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport access vlan 70
+Tue Jan 23 19:22:38 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:22:44 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig1/0/9
+Tue Jan 23 19:22:48 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:22:54 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport access vlan 80
+Tue Jan 23 19:22:58 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:23:25 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#do wr
+Tue Jan 23 19:24:46 2024   BRANCH L3 SWITCH   Switch>en
+Tue Jan 23 19:24:51 2024   BRANCH L3 SWITCH   Switch#conf t
+Tue Jan 23 19:25:16 2024   BRANCH L3 SWITCH   Switch(config)#int gig1/0/3
+Tue Jan 23 19:25:26 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:25:35 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport access vlan 10
+Tue Jan 23 19:25:55 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport access vlan 90
+Tue Jan 23 19:26:11 2024   BRANCH L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:26:51 2024   BRANCH L3 SWITCH   Switch(config)#int gig1/0/
+Tue Jan 23 19:27:02 2024   BRANCH L3 SWITCH   Switch(config)#int gig1/0/2
+Tue Jan 23 19:27:07 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:27:22 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport access vlan 90
+Tue Jan 23 19:27:37 2024   STUD-LB   Switch>en
+Tue Jan 23 19:27:44 2024   BRANCH L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:27:58 2024   BRANCH L3 SWITCH   Switch(config)#int gig 
+Tue Jan 23 19:28:08 2024   BRANCH L3 SWITCH   Switch(config)#int gig 1/0/3
+Tue Jan 23 19:28:14 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:28:21 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport access vlan 100
+Tue Jan 23 19:28:24 2024   BRANCH L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:28:32 2024   BRANCH L3 SWITCH   Switch(config)#int gig 1/0/2
+Tue Jan 23 19:28:35 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport mode access
+Tue Jan 23 19:28:43 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport access vlan 90
+Tue Jan 23 19:28:46 2024   BRANCH L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:29:36 2024   BRANCH L3 SWITCH   Switch(config)#do wr
+Tue Jan 23 19:30:58 2024   BRANCH L3 SWITCH   Switch(config)#int gig1/0/1
+Tue Jan 23 19:31:17 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport trunk encapsulation dot1q
+Tue Jan 23 19:31:37 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport trunk encapsulation dotlq
+Tue Jan 23 19:32:54 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport trunk encapsulation dot1q
+Tue Jan 23 19:33:16 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport trunk encapsulation dot1q
+Tue Jan 23 19:38:50 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport trunk
+Tue Jan 23 19:38:54 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport trunk encapsulation dot1q
+Tue Jan 23 19:39:39 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport trunk mode
+Tue Jan 23 19:40:45 2024   BRANCH L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:40:55 2024   BRANCH L3 SWITCH   Switch(config)#int gig1/0/1
+Tue Jan 23 19:41:16 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport trunk encapsulation dot1q
+Tue Jan 23 19:41:52 2024   BRANCH L3 SWITCH   Switch(config-if)#switchport mode trunk
+Tue Jan 23 19:42:33 2024   BRANCH L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:42:36 2024   BRANCH L3 SWITCH   Switch(config)#do wr
+Tue Jan 23 19:42:47 2024   MAIN_CAMPUS L3 SWITCH   Switch>en'conf t
+Tue Jan 23 19:42:50 2024   MAIN_CAMPUS L3 SWITCH   Switch>conf t
+Tue Jan 23 19:42:56 2024   MAIN_CAMPUS L3 SWITCH   Switch>en
+Tue Jan 23 19:42:58 2024   MAIN_CAMPUS L3 SWITCH   Switch#conf t
+Tue Jan 23 19:43:07 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#int gig 1/0/1
+Tue Jan 23 19:43:17 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#switchport mode trunk
+Tue Jan 23 19:43:20 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#ex
+Tue Jan 23 19:43:24 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#do wr
+Tue Jan 23 19:50:56 2024   MAIN-CAMPUS ROUTER   Router>enable
+Tue Jan 23 19:50:56 2024   MAIN-CAMPUS ROUTER   Router#configure terminal
+Tue Jan 23 19:50:56 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:51:07 2024   MAIN-CAMPUS ROUTER   Router(config-if)#ip address 10.10.10.1 255.0.0.0
+Tue Jan 23 19:51:25 2024   MAIN-CAMPUS ROUTER   Router(config-if)#ip address 10.10.10.1 255.255.255.252
+Tue Jan 23 19:51:26 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:51:26 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 19:52:40 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:52:40 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:52:46 2024   MAIN-CAMPUS ROUTER   Router(config-if)#ip address 10.10.10.5 255.255.255.252
+Tue Jan 23 19:52:49 2024   MAIN-CAMPUS ROUTER   Router(config-if)#ex
+Tue Jan 23 19:52:51 2024   MAIN-CAMPUS ROUTER   Router(config)#do wr
+Tue Jan 23 19:53:23 2024   BRANCH COMPUTER NETWORK   Router>enable
+Tue Jan 23 19:53:23 2024   BRANCH COMPUTER NETWORK   Router#configure terminal
+Tue Jan 23 19:53:23 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/1
+Tue Jan 23 19:53:24 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 19:53:24 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 19:53:35 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 19:53:35 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 19:53:40 2024   BRANCH COMPUTER NETWORK   Router(config-if)#ip address 10.10.10.2 255.0.0.0
+Tue Jan 23 19:53:47 2024   BRANCH COMPUTER NETWORK   Router(config-if)#ip address 10.10.10.2 255.255.255.252
+Tue Jan 23 19:53:47 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 19:53:47 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/1
+Tue Jan 23 19:53:57 2024   BRANCH COMPUTER NETWORK   Router(config-if)#ex
+Tue Jan 23 19:53:59 2024   BRANCH COMPUTER NETWORK   Router(config)#do wr
+Tue Jan 23 19:54:44 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:54:45 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:54:45 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 19:54:47 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:54:47 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:54:48 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:54:48 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 19:54:56 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:54:56 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:55:11 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:55:11 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 19:55:27 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:55:27 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:55:36 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:55:36 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 19:55:50 2024   MAIN-CAMPUS ROUTER   Router(config-if)#ip address 10.10.10.1 255.255.255.252
+Tue Jan 23 19:55:52 2024   MAIN-CAMPUS ROUTER   Router(config-if)#ip address 10.10.10.1 255.255.255.252
+Tue Jan 23 19:56:02 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:56:02 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:56:14 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:56:14 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:56:20 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:56:20 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 19:56:21 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 19:56:21 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:56:36 2024   CLOUD   Router>enable
+Tue Jan 23 19:56:36 2024   CLOUD   Router#configure terminal
+Tue Jan 23 19:56:36 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 23 19:56:48 2024   CLOUD   Router(config-if)#ip address 10.10.10.6 255.0.0.0
+Tue Jan 23 19:56:57 2024   CLOUD   Router(config-if)#ip address 10.10.10.6 255.255.255.252
+Tue Jan 23 19:57:05 2024   CLOUD   Router(config-if)#ex
+Tue Jan 23 19:57:07 2024   CLOUD   Router(config)#do wr
+Tue Jan 23 19:57:16 2024   CLOUD   Router(config)#interface Serial0/1/1
+Tue Jan 23 19:57:25 2024   CLOUD   Router(config-if)#ip address 20.0.0.1 255.0.0.0
+Tue Jan 23 19:57:32 2024   CLOUD   Router(config-if)#ip address 20.0.0.1 255.255.255.252
+Tue Jan 23 19:57:34 2024   CLOUD   Router(config-if)#ex
+Tue Jan 23 19:57:36 2024   CLOUD   Router(config)#do wr
+Tue Jan 23 20:00:40 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 23 20:00:41 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 20:00:41 2024   CLOUD   Router(config)#interface Serial0/1/1
+Tue Jan 23 20:02:01 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 20:02:01 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 23 20:02:03 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 20:02:03 2024   CLOUD   Router(config)#interface Serial0/1/1
+Tue Jan 23 20:02:04 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 20:02:04 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 23 20:02:20 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 20:02:20 2024   CLOUD   Router(config)#interface Serial0/1/1
+Tue Jan 23 20:02:22 2024   CLOUD   Router(config-if)#ip address 20.0.0.1 255.255.255.252
+Tue Jan 23 20:02:26 2024   CLOUD   Router(config-if)#ip address  
+Tue Jan 23 20:02:27 2024   CLOUD   Router(config-if)#ip address  
+Tue Jan 23 20:02:28 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 20:02:28 2024   CLOUD   Router(config)#interface GigabitEthernet0/0
+Tue Jan 23 20:02:33 2024   CLOUD   Router(config-if)#ip address 20.0.0.1 255.0.0.0
+Tue Jan 23 20:02:40 2024   CLOUD   Router(config-if)#ip address 20.0.0.1 255.255.255.252
+Tue Jan 23 20:08:33 2024   BRANCH COMPUTER NETWORK   Router>en
+Tue Jan 23 20:08:36 2024   BRANCH COMPUTER NETWORK   Router#conf t
+Tue Jan 23 20:09:05 2024   BRANCH COMPUTER NETWORK   Router(config)#int gig0/0.90
+Tue Jan 23 20:09:40 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#encapsulation dot1q 90
+Tue Jan 23 20:09:59 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#ip address 192.168.9.1 255.255.255.0
+Tue Jan 23 20:10:07 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#ex
+Tue Jan 23 20:10:17 2024   BRANCH COMPUTER NETWORK   Router(config)#int gig0/0.100
+Tue Jan 23 20:10:40 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#encapsulation dot1q 100
+Tue Jan 23 20:11:02 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#ip address 192.168.10.1 255.255.255.0
+Tue Jan 23 20:11:06 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#ex
+Tue Jan 23 20:11:08 2024   BRANCH COMPUTER NETWORK   Router(config)#do wr
+Tue Jan 23 20:11:46 2024   BRANCH COMPUTER NETWORK   Router(config)#service dhcp
+Tue Jan 23 20:12:35 2024   BRANCH COMPUTER NETWORK   Router(config)#ip dhcp pool staf-pool
+Tue Jan 23 20:13:03 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#network 190.168.9.0 255.255.255.0
+Tue Jan 23 20:14:02 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#default-router 192.168.9.1
+Tue Jan 23 20:14:21 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#dns-server 192.168.9.1
+Tue Jan 23 20:14:23 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#ex
+Tue Jan 23 20:14:25 2024   BRANCH COMPUTER NETWORK   Router(config)#do wr
+Tue Jan 23 20:14:55 2024   BRANCH COMPUTER NETWORK   Router(config)#ip dhcp pool studlb-pool
+Tue Jan 23 20:15:12 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#network 190.168.10.0 255.255.255.0
+Tue Jan 23 20:15:21 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#default-router 192.168.10.1
+Tue Jan 23 20:15:31 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#dns-server 192.168.10.1
+Tue Jan 23 20:15:37 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#ex do wr
+Tue Jan 23 20:16:13 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#ex
+Tue Jan 23 20:16:53 2024   BRANCH COMPUTER NETWORK   Router(config)#do wr
+Tue Jan 23 20:17:01 2024   BRANCH COMPUTER NETWORK   Router(config)#end
+Tue Jan 23 20:17:01 2024   BRANCH COMPUTER NETWORK   Router#vlan database
+Tue Jan 23 20:17:11 2024   BRANCH COMPUTER NETWORK   Router(vlan)#exit
+Tue Jan 23 20:17:11 2024   BRANCH COMPUTER NETWORK   Router#configure terminal
+Tue Jan 23 20:17:11 2024   BRANCH COMPUTER NETWORK   Router(config)#router rip
+Tue Jan 23 20:17:13 2024   BRANCH COMPUTER NETWORK   Router(config-router)#end
+Tue Jan 23 20:17:13 2024   BRANCH COMPUTER NETWORK   Router#configure terminal
+Tue Jan 23 20:17:13 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/1
+Tue Jan 23 20:17:14 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:14 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 20:17:14 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:14 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/2
+Tue Jan 23 20:17:15 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:15 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/1
+Tue Jan 23 20:17:16 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:16 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/0
+Tue Jan 23 20:17:18 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:18 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 20:17:19 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:19 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/1
+Tue Jan 23 20:17:20 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:20 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 20:17:21 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:21 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/2
+Tue Jan 23 20:17:22 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:22 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/0
+Tue Jan 23 20:17:34 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:17:34 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 20:17:55 2024   MAIN-CAMPUS ROUTER   Router>enable
+Tue Jan 23 20:17:55 2024   MAIN-CAMPUS ROUTER   Router#configure terminal
+Tue Jan 23 20:17:55 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 20:17:56 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 20:17:56 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 20:20:06 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 20:20:06 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 20:20:08 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 20:20:08 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 20:20:10 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 20:20:10 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 23 20:20:11 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 23 20:20:11 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 23 20:20:37 2024   CLOUD   Router>enable
+Tue Jan 23 20:20:37 2024   CLOUD   Router#configure terminal
+Tue Jan 23 20:20:37 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 23 20:20:38 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 20:20:38 2024   CLOUD   Router(config)#interface Serial0/1/1
+Tue Jan 23 20:20:39 2024   CLOUD   Router(config-if)#exit
+Tue Jan 23 20:20:39 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 23 20:21:05 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 23 20:21:05 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 23 20:29:20 2024   BRANCH COMPUTER NETWORK   Router(config-if)#ex
+Tue Jan 23 20:30:19 2024   BRANCH COMPUTER NETWORK   Router(config)#ip dhcp pool staf-pool
+Tue Jan 23 20:30:45 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#network 192.168.9.0 255.255.255.0
+Tue Jan 23 20:31:12 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#default-router 192.168.9.1
+Tue Jan 23 20:31:28 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#dns-server 192.168.9.1
+Tue Jan 23 20:31:30 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#ex
+Tue Jan 23 20:31:35 2024   BRANCH COMPUTER NETWORK   Router(config)#do wr
+Tue Jan 23 20:31:50 2024   BRANCH COMPUTER NETWORK   Router(config)#ip dhcp pool stublb-pool
+Tue Jan 23 20:32:03 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#network 192.168.10.0 255.255.255.0
+Tue Jan 23 20:32:12 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#default-router 192.168.10.1
+Tue Jan 23 20:32:19 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#dns-server 192.168.10.1
+Tue Jan 23 20:32:24 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#ex  
+Tue Jan 23 20:32:27 2024   BRANCH COMPUTER NETWORK   Router(config)#do wr
+Tue Jan 23 20:35:46 2024   MAIN-CAMPUS ROUTER   Router>en
+Tue Jan 23 20:35:48 2024   MAIN-CAMPUS ROUTER   Router#conf t
+Tue Jan 23 20:36:11 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.10
+Tue Jan 23 20:36:34 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 10
+Tue Jan 23 20:45:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.1.1 255.255.255.0
+Tue Jan 23 20:45:52 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 23 20:45:56 2024   MAIN-CAMPUS ROUTER   Router(config)#do wr
+Tue Jan 23 20:46:18 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.20
+Tue Jan 23 20:46:27 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 20
+Tue Jan 23 20:46:42 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.2.1 255.255.255.0
+Tue Jan 23 20:46:47 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 23 20:47:19 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.30
+Tue Jan 23 20:47:37 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 30
+Tue Jan 23 20:47:53 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.3.1 255.255.255.0
+Tue Jan 23 20:47:55 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 23 20:48:01 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.40
+Tue Jan 23 20:48:13 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 40
+Tue Jan 23 20:48:21 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.4.1 255.255.255.0
+Tue Jan 23 20:48:24 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 23 20:48:37 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.50
+Tue Jan 23 20:48:53 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.5.1 255.255.255.0
+Tue Jan 23 20:49:02 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 50
+Tue Jan 23 20:49:10 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.5.1 255.255.255.0
+Tue Jan 23 20:49:13 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 23 20:49:54 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.60
+Tue Jan 23 20:50:04 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 60
+Tue Jan 23 20:50:16 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.6.1 255.255.255.0
+Tue Jan 23 20:50:18 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 23 20:50:26 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.70
+Tue Jan 23 20:50:33 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 70
+Tue Jan 23 20:50:41 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.7.1 255.255.255.0
+Tue Jan 23 20:50:43 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 23 20:50:59 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.80
+Tue Jan 23 20:51:05 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 80
+Tue Jan 23 20:51:13 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 192.168.8.1 255.255.255.0
+Tue Jan 23 20:51:32 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 23 20:51:35 2024   MAIN-CAMPUS ROUTER   Router(config)#do wr
+Tue Jan 23 20:55:13 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool admin-pool
+Tue Jan 23 20:55:35 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.1.1 255.255.255.0
+Tue Jan 23 20:56:07 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.1.1
+Tue Jan 23 20:56:20 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.1.1
+Tue Jan 23 20:56:23 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 20:56:52 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool hr-pool
+Tue Jan 23 20:57:33 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.2.1 255.255.255.0
+Tue Jan 23 20:58:10 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.1.0 255.255.255.0
+Tue Jan 23 20:58:32 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.2.1
+Tue Jan 23 20:59:23 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.2.0 255.255.255.0
+Tue Jan 23 20:59:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.2.1
+Tue Jan 23 21:00:10 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.2.1
+Tue Jan 23 21:00:12 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 21:00:34 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool admin-pool
+Tue Jan 23 21:00:47 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.1.0 255.255.255.0
+Tue Jan 23 21:01:09 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.1.0 255.255.255.0
+Tue Jan 23 21:02:32 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.1.1
+Tue Jan 23 21:02:44 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.1.1
+Tue Jan 23 21:02:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 21:03:29 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool finance-pool
+Tue Jan 23 21:03:50 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.3.0 255.255.255.0
+Tue Jan 23 21:03:59 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.3.1
+Tue Jan 23 21:04:09 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.3.1
+Tue Jan 23 21:04:13 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 21:04:34 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool business-pool
+Tue Jan 23 21:04:56 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.4.0 255.255.255.0
+Tue Jan 23 21:05:05 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.4.1
+Tue Jan 23 21:05:10 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.4.1
+Tue Jan 23 21:05:13 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 21:05:51 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool a&c-pool
+Tue Jan 23 21:06:30 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.5.0 255.255.255.0
+Tue Jan 23 21:06:37 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.5.1
+Tue Jan 23 21:06:44 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.5.1
+Tue Jan 23 21:06:46 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 21:07:03 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool a&d-pool
+Tue Jan 23 21:07:26 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.6.0 255.255.255.0
+Tue Jan 23 21:07:33 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.6.1
+Tue Jan 23 21:07:41 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.6.1
+Tue Jan 23 21:07:43 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 21:08:10 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool studlab-pool
+Tue Jan 23 21:08:19 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.7.0 255.255.255.0
+Tue Jan 23 21:08:26 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.7.1
+Tue Jan 23 21:08:33 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.7.1
+Tue Jan 23 21:08:35 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 21:09:00 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool itdept-pool
+Tue Jan 23 21:09:13 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 192.168.8.0 255.255.255.0
+Tue Jan 23 21:09:21 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 192.168.8.1
+Tue Jan 23 21:09:37 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 192.168.8.1
+Tue Jan 23 21:09:38 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 23 21:10:46 2024   MAIN-CAMPUS ROUTER   Router(config)#do wr
+Tue Jan 23 21:18:32 2024   BRANCH COMPUTER NETWORK   Router>en
+Tue Jan 23 21:18:34 2024   BRANCH COMPUTER NETWORK   Router#conf t
+Tue Jan 23 21:18:39 2024   BRANCH COMPUTER NETWORK   Router(config)#router rip
+Tue Jan 23 21:18:42 2024   BRANCH COMPUTER NETWORK   Router(config-router)#version 2
+Tue Jan 23 21:18:55 2024   BRANCH COMPUTER NETWORK   Router(config-router)#network 192.168.9.0
+Tue Jan 23 21:19:05 2024   BRANCH COMPUTER NETWORK   Router(config-router)#network 192.168.10.0
+Tue Jan 23 21:19:33 2024   BRANCH COMPUTER NETWORK   Router(config-router)#network 10.10.10.0
+Tue Jan 23 21:20:38 2024   BRANCH COMPUTER NETWORK   Router(config-router)#ex
+Tue Jan 23 21:20:41 2024   BRANCH COMPUTER NETWORK   Router(config)#do wr
+Tue Jan 23 21:20:56 2024   MAIN-CAMPUS ROUTER   Router(config)#router rip
+Tue Jan 23 21:21:04 2024   MAIN-CAMPUS ROUTER   Router(config-router)#version 2
+Tue Jan 23 21:21:21 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 10.10.10.0
+Tue Jan 23 21:21:28 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 10.10.10.4
+Tue Jan 23 21:21:56 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 192.168.1.0
+Tue Jan 23 21:21:59 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 192.168.2.0
+Tue Jan 23 21:22:06 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 192.168.3.0
+Tue Jan 23 21:22:09 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 192.168.4.0
+Tue Jan 23 21:22:13 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 192.168.5.0
+Tue Jan 23 21:22:17 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 192.168.6.0
+Tue Jan 23 21:22:20 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 192.168.7.0
+Tue Jan 23 21:22:25 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 192.168.8.0
+Tue Jan 23 21:22:45 2024   MAIN-CAMPUS ROUTER   Router(config-router)#ex
+Tue Jan 23 21:22:49 2024   MAIN-CAMPUS ROUTER   Router(config)#do wr
+Tue Jan 23 21:25:24 2024   CLOUD   Router>en
+Tue Jan 23 21:25:34 2024   CLOUD   Router#router rip
+Tue Jan 23 21:25:37 2024   CLOUD   Router#v
+Tue Jan 23 21:25:40 2024   CLOUD   Router#conf t
+Tue Jan 23 21:25:45 2024   CLOUD   Router(config)#router rip
+Tue Jan 23 21:25:58 2024   CLOUD   Router(config-router)#version 2
+Tue Jan 23 21:26:35 2024   CLOUD   Router(config-router)#network 20.0.0.0
+Tue Jan 23 21:26:49 2024   CLOUD   Router(config-router)#network 10.10.10.4
+Tue Jan 23 21:26:51 2024   CLOUD   Router(config-router)#ex
+Tue Jan 23 21:26:52 2024   CLOUD   Router(config)#do wr
+Tue Jan 30 11:57:59 2024   MAIN-CAMPUS ROUTER   Router>en
+Tue Jan 30 11:58:00 2024   MAIN-CAMPUS ROUTER   Router#conf
+Tue Jan 30 12:03:23 2024   CLOUD   Router>enable
+Tue Jan 30 12:03:23 2024   CLOUD   Router#configure terminal
+Tue Jan 30 12:03:23 2024   CLOUD   Router(config)#interface GigabitEthernet0/0
+Tue Jan 30 12:03:29 2024   CLOUD   Router(config-if)#exit
+Tue Jan 30 12:03:29 2024   CLOUD   Router(config)#interface GigabitEthernet0/1
+Tue Jan 30 12:03:30 2024   CLOUD   Router(config-if)#exit
+Tue Jan 30 12:03:30 2024   CLOUD   Router(config)#interface GigabitEthernet0/2
+Tue Jan 30 12:03:30 2024   CLOUD   Router(config-if)#exit
+Tue Jan 30 12:03:30 2024   CLOUD   Router(config)#interface GigabitEthernet0/1
+Tue Jan 30 12:03:31 2024   CLOUD   Router(config-if)#exit
+Tue Jan 30 12:03:31 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 30 12:03:31 2024   CLOUD   Router(config-if)#exit
+Tue Jan 30 12:03:31 2024   CLOUD   Router(config)#interface Serial0/1/1
+Tue Jan 30 12:03:33 2024   CLOUD   Router(config-if)#exit
+Tue Jan 30 12:03:33 2024   CLOUD   Router(config)#interface Serial0/1/0
+Tue Jan 30 12:03:36 2024   CLOUD   Router(config-if)#exit
+Tue Jan 30 12:03:36 2024   CLOUD   Router(config)#interface GigabitEthernet0/0
+Tue Jan 30 12:03:42 2024   CLOUD   Router(config-if)#ip address 20.10.0.1 255.255.255.252
+Tue Jan 30 12:07:34 2024   MAIN-CAMPUS ROUTER   Router>enable
+Tue Jan 30 12:07:34 2024   MAIN-CAMPUS ROUTER   Router#configure terminal
+Tue Jan 30 12:07:34 2024   MAIN-CAMPUS ROUTER   Router(config)#interface GigabitEthernet0/0
+Tue Jan 30 12:07:36 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 30 12:07:36 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 30 12:07:38 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 30 12:07:38 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/1
+Tue Jan 30 12:07:40 2024   MAIN-CAMPUS ROUTER   Router(config-if)#exit
+Tue Jan 30 12:07:40 2024   MAIN-CAMPUS ROUTER   Router(config)#interface Serial0/1/0
+Tue Jan 30 12:07:58 2024   BRANCH COMPUTER NETWORK   Router>enable
+Tue Jan 30 12:07:58 2024   BRANCH COMPUTER NETWORK   Router#configure terminal
+Tue Jan 30 12:07:58 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/0
+Tue Jan 30 12:07:59 2024   BRANCH COMPUTER NETWORK   Router(config-if)#end
+Tue Jan 30 12:07:59 2024   BRANCH COMPUTER NETWORK   Router#vlan database
+Tue Jan 30 12:08:04 2024   BRANCH COMPUTER NETWORK   Router(vlan)#exit
+Tue Jan 30 12:08:04 2024   BRANCH COMPUTER NETWORK   Router#vlan database
+Tue Jan 30 12:08:05 2024   BRANCH COMPUTER NETWORK   Router(vlan)#exit
+Tue Jan 30 12:08:05 2024   BRANCH COMPUTER NETWORK   Router#configure terminal
+Tue Jan 30 12:08:05 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/0
+Tue Jan 30 12:08:06 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 30 12:08:06 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/1
+Tue Jan 30 12:08:07 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 30 12:08:07 2024   BRANCH COMPUTER NETWORK   Router(config)#interface GigabitEthernet0/2
+Tue Jan 30 12:08:08 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 30 12:08:08 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/0
+Tue Jan 30 12:08:09 2024   BRANCH COMPUTER NETWORK   Router(config-if)#exit
+Tue Jan 30 12:08:09 2024   BRANCH COMPUTER NETWORK   Router(config)#interface Serial0/2/1
+Tue Jan 30 12:57:18 2024   MAIN_CAMPUS L3 SWITCH   Switch>enable
+Tue Jan 30 12:57:18 2024   MAIN_CAMPUS L3 SWITCH   Switch#configure terminal
+Tue Jan 30 12:57:18 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#interface GigabitEthernet1/0/1
+Tue Jan 30 12:57:19 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#exit
+Tue Jan 30 12:57:19 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#interface GigabitEthernet1/0/2
+Tue Jan 30 12:57:20 2024   MAIN_CAMPUS L3 SWITCH   Switch(config-if)#exit
+Tue Jan 30 12:57:20 2024   MAIN_CAMPUS L3 SWITCH   Switch(config)#interface GigabitEthernet1/0/4
+Tue Jan 30 16:18:23 2024   MAIN-CAMPUS ROUTER   Router>en 
+Tue Jan 30 16:18:26 2024   MAIN-CAMPUS ROUTER   Router#conf t
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.10
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 10
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 128.168.1.1 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#no shut
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.20
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 20
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 128.168.2.1 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#no shut
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.30
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 30
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 128.168.3.1 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#no shut
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.40
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 40
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 128.168.4.1 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#no shut
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#int gig0/0.50
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 50
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 128.168.5.1 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#no shut
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.60
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 60
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 128.168.6.1 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#no shut
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.70
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 70
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 128.168.7.1 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#no shut
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#int gig0/0.80
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#encapsulation dot1q 80
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ip address 128.168.8.1 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#no shut
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config-subif)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool admin-pool
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 128.168.1.0 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 128.168.1.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 128.168.1.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool hr-pool
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 128.168.2.0 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 128.168.2.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 128.168.2.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool finance-pool
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 128.168.3.0 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 128.168.3.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 128.168.3.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool business-pool
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 128.168.4.0 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 128.168.4.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 128.168.4.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool a&c-pool
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 128.168.5.0 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 128.168.5.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 128.168.5.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool a&d-pool
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 128.168.6.0 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 128.168.6.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 128.168.6.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool studlab-pool
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 128.168.7.0 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 128.168.7.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 128.168.7.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(config)#ip dhcp pool itdept-pool
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#network 128.168.8.0 255.255.255.0
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#default-router 128.168.8.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#dns-server 128.168.8.1
+Tue Jan 30 16:18:48 2024   MAIN-CAMPUS ROUTER   Router(dhcp-config)#ex
+Tue Jan 30 16:18:54 2024   MAIN-CAMPUS ROUTER   Router(config)#do wr
+Tue Jan 30 16:19:05 2024   BRANCH COMPUTER NETWORK   Router>en
+Tue Jan 30 16:19:07 2024   BRANCH COMPUTER NETWORK   Router#conf t
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config)#int gig0/0.90
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#encapsulation dot1q 90
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#ip address 128.168.9.1 255.255.255.0
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#no shut
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#ex
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config)#int gig0/0.100
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#encapsulation dot1q 100
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#ip address 128.168.10.1 255.255.255.0
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#no shut
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config-subif)#ex
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config)#service dhcp
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config)#ip dhcp pool staf-pool
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#network 128.168.9.0 255.255.255.0
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#default-router 128.168.9.1
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#dns-server 128.168.9.1
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#ex
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(config)#ip dhcp pool studlb-pool
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#network 128.168.10.0 255.255.255.0
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#default-router 128.168.10.1
+Tue Jan 30 16:19:15 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#dns-server 128.168.10.1
+Tue Jan 30 16:19:16 2024   BRANCH COMPUTER NETWORK   Router(dhcp-config)#ex
+Tue Jan 30 16:19:21 2024   BRANCH COMPUTER NETWORK   Router(config)#do wr
+Tue Jan 30 16:19:28 2024   BRANCH COMPUTER NETWORK   Router(config)#router rip
+Tue Jan 30 16:19:31 2024   BRANCH COMPUTER NETWORK   Router(config-router)#version 2
+Tue Jan 30 16:19:56 2024   BRANCH COMPUTER NETWORK   Router(config-router)#network 128.168.9.0
+Tue Jan 30 16:20:02 2024   BRANCH COMPUTER NETWORK   Router(config-router)#network 128.168.10.0
+Tue Jan 30 16:20:06 2024   BRANCH COMPUTER NETWORK   Router(config-router)#do wr
+Tue Jan 30 16:20:08 2024   BRANCH COMPUTER NETWORK   Router(config-router)#ex
+Tue Jan 30 16:20:42 2024   MAIN-CAMPUS ROUTER   Router(config)#router rip
+Tue Jan 30 16:20:48 2024   MAIN-CAMPUS ROUTER   Router(config-router)#version 2
+Tue Jan 30 16:20:59 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 128.168.1.0
+Tue Jan 30 16:21:04 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 128.168.2.0
+Tue Jan 30 16:21:08 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 128.168.3.0
+Tue Jan 30 16:21:11 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 128.168.4.0
+Tue Jan 30 16:21:15 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 128.168.5.0
+Tue Jan 30 16:21:18 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 128.168.6.0
+Tue Jan 30 16:21:24 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 128.168.7.0
+Tue Jan 30 16:21:29 2024   MAIN-CAMPUS ROUTER   Router(config-router)#network 128.168.8.0
+Tue Jan 30 16:21:33 2024   MAIN-CAMPUS ROUTER   Router(config-router)#do wr
+Tue Jan 30 16:21:35 2024   MAIN-CAMPUS ROUTER   Router(config-router)#ex
+Tue Jan 30 16:23:39 2024   MAIN-CAMPUS ROUTER   Router(config)#end
+Tue Jan 30 16:23:39 2024   MAIN-CAMPUS ROUTER   Router#vlan database
+Tue Jan 30 16:23:41 2024   MAIN-CAMPUS ROUTER   Router(vlan)#exit
+Tue Jan 30 16:23:41 2024   MAIN-CAMPUS ROUTER   Router#configure terminal
+Tue Jan 30 16:23:41 2024   MAIN-CAMPUS ROUTER   Router(config)#router rip
+Tue Jan 30 16:23:46 2024   MAIN-CAMPUS ROUTER   Router(config-router)#no network 192.168.1.0
+Tue Jan 30 16:23:47 2024   MAIN-CAMPUS ROUTER   Router(config-router)#no network 192.168.2.0
+Tue Jan 30 16:23:49 2024   MAIN-CAMPUS ROUTER   Router(config-router)#no network 192.168.3.0
+Tue Jan 30 16:23:51 2024   MAIN-CAMPUS ROUTER   Router(config-router)#no network 192.168.5.0
+Tue Jan 30 16:23:52 2024   MAIN-CAMPUS ROUTER   Router(config-router)#no network 192.168.4.0
+Tue Jan 30 16:23:53 2024   MAIN-CAMPUS ROUTER   Router(config-router)#no network 192.168.7.0
+Tue Jan 30 16:23:55 2024   MAIN-CAMPUS ROUTER   Router(config-router)#no network 192.168.6.0
+Tue Jan 30 16:23:56 2024   MAIN-CAMPUS ROUTER   Router(config-router)#no network 192.168.8.0
+Tue Jan 30 16:24:06 2024   BRANCH COMPUTER NETWORK   Router(config)#router rip
+Tue Jan 30 16:24:08 2024   BRANCH COMPUTER NETWORK   Router(config-router)#no network 192.168.9.0
+Tue Jan 30 16:24:09 2024   BRANCH COMPUTER NETWORK   Router(config-router)#no network 192.168.10.0
